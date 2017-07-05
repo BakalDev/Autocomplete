@@ -1,0 +1,23 @@
+.autocomplete-options {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   padding: 5px;
+   z-index: 9999; 
+   background: #fff;
+   padding-bottom: 15px;
+}
+.autocomplete-options li a {
+    display: block;
+    padding: 5px;
+    color: #111;
+}
+
+.autocomplete-options li a:active
+, .autocomplete-options li a:hover
+, .active {
+    background: #e3e4e5;
+    color: #666 !important;
+    cursor: pointer;
+    text-decoration: none;
+}
